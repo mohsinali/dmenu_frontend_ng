@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 
 import { CategoriesComponent } from './categories.component'
+import { categoriesRouting } from './categories.routing'
 
 @NgModule({
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, categoriesRouting],
   declarations: [CategoriesComponent],
   providers: []
 })
