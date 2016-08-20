@@ -2,7 +2,7 @@ import {Component} from '@angular/core'
 
 @Component({
   selector: "categories",
-  templateUrl: "app/categories_component/categories.component.html"
+  templateUrl: "app/categories/categories.component.html"
 })
 
 export class CategoriesComponent{
